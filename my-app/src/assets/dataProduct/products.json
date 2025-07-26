@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Calabrese Broccoli",
+    "price": 25.0,
+    "category": "Vegetable",
+    "img": "/images/btocoli.png"
+  },
+  {
+    "id": 2,
+    "name": "Fresh Banana",
+    "price": 20.0,
+    "category": "Fruit",
+    "img": "/images/banana.png"
+  },
+  {
+    "id": 3,
+    "name": "White Nuts",
+    "price": 15.0,
+    "category": "Nuts",
+    "img": "/images/nuts.png"
+  },
+  {
+    "id": 4,
+    "name": "Vegan Red Tomato",
+    "price": 17.0,
+    "category": "Vegetable",
+    "img":  "/images/tomato.png"
+  },
+  {
+    "id": 5,
+    "name": "Mung Bean",
+    "price": 10.0,
+    "category": "Health",
+    "img": "/images/bean.png"
+  },
+  {
+    "id": 6,
+    "name": "Brown Hazelnut",
+    "price": 22.0,
+    "category": "Nuts",
+    "img": "/images/hazelnut.png"
+  },
+  {
+    "id": 7,
+    "name": "Eggs",
+    "price": 30.0,
+    "category": "Fresh",
+    "img": "/images/eggs.png"
+  },
+  {
+    "id": 8,
+    "name": "Zelco Suji Elaichi Rusk",
+    "price": 12.0,
+    "category": "Fresh",
+    "img": "/images/rusk.png"
+  }
+]

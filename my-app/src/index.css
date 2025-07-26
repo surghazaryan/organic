@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+ font-family: "Yellowtail", cursive;
+   src: url(./assets/fonts/Yellowtail.ttf);
+}
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1400px;
+
+}
