@@ -1,10 +1,7 @@
 import React from 'react';
-import "./Home.scss"
 import OurProducts from "../../component/products/OurProducts.jsx";
 
-
-
-const Home = () => {
+const Shop = () => {
     return (
         <div>
             <OurProducts/>
@@ -12,4 +9,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Shop;

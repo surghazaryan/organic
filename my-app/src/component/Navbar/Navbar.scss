@@ -60,7 +60,7 @@ header {
         }
       }
 
-      span {
+      button {
         width: 56px;
         height: 56px;
         top: 5px;
@@ -71,6 +71,8 @@ header {
         justify-content: center;
         align-items: center;
         border-radius: 50%;
+        border: none;
+        cursor: pointer;
         img{
           color:#FAFAFA
         }
@@ -92,6 +94,7 @@ header {
           height: 56px;
 
         }
+
       }
       span:nth-child(2){
         color:$title-color;
@@ -99,6 +102,12 @@ header {
         font-size: 18px;
         line-height: 100%;
         letter-spacing: 0;
+      }
+      a{
+        text-decoration: none;
+        color: $title-color;
+        font-weight: 600;
+        font-size: 18px;
       }
     }
   }

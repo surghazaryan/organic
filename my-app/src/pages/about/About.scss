@@ -1,0 +1,22 @@
+@import "../../sass/variables.scss";
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  .btn{
+    background: $small-title-color;
+    color: #FAFAFA;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 500ms ease-in-out;
+    &:hover{
+      opacity: 0.7;
+      background: #1d4531;
+      transform: scale(1.1);
+    }
+  }
+}

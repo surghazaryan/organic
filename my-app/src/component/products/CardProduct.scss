@@ -77,7 +77,6 @@
     transition: color 0.3s;
     width: 96px;
     height: 31px;
-    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,5 +85,12 @@
     &:hover {
       color: #3c8f65;
     }
+  }
+  button{
+    border: none;
+    padding: 10px;
+    background: #7EB693;
+    color: white;
+    cursor: pointer;
   }
 }

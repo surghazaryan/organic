@@ -1,25 +1,29 @@
 import React from 'react';
-import {useSelector} from "react-redux";
-import {selectCard} from "../../features/ProductSlice.js";
+import {useDispatch, useSelector} from "react-redux";
+import {Link} from "react-router-dom";
+import {deleteProduct, selectCard} from "../../features/ProductSlice.js";
+
 
 const Card = () => {
     const card = useSelector(selectCard);
+    const dispatch = useDispatch();
     return (
         <div>
             {
                 card.length === 0 ? <p>Card is empty</p>:
-                    <ul>
-                        {card.map((item, index) => (
-                            <li key={index}>
-                                <img src={item.img} alt={item.name} width="80" />
-                                <div>
-                                    <h4>{item.name}</h4>
-                                    <p>Price: ${item.price}</p>
-                                    <p>Category: {item.category}</p>
-                                </div>
-                            </li>
-                        ))}
-                    </ul>
+
+                  <div>
+                      {card.map((item, index) => (
+                          <div className="card" key={item.id}>
+                              <Link to={"/"}>{item.category}</Link>
+                              <img src={item.img} alt="img"/>
+                              <h3>{item.name}</h3>
+                              <p>{item.price}</p>
+                              <button style={{background:"red"}} onClick={()=>dispatch(deleteProduct(item.id))}>Delete</button>
+                          </div>
+                      ))}
+                  </div>
+
             }
         </div>
     );
